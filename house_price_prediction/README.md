@@ -7,16 +7,18 @@ Each project includes **full code, trained models, data visualizations, and a fu
 
 ## 📌 Projects Included
 
-### 1️⃣ Iris Flower Classification (KNN Classifier)
-- Predicts flower species: **Setosa, Versicolor, Virginica**
-- Uses **K-Nearest Neighbors (KNN)** and **StandardScaler**
-- Includes **pairplot & correlation heatmap**
-- **App available locally using Streamlit**
+### 2️⃣ House Price Prediction (Linear Regression)
+- Predicts **house price based on key features** such as area, bedrooms, bathrooms, location
+- Uses **Linear Regression** with **data preprocessing & feature engineering**
+- Includes **correlation heatmap & feature importance plot**
+- **Streamlit web app for real-time price prediction**
 - Trained model saved as `.pkl`
 
-📂 Folder: `iris_flower_classification`  
+📂 Folder: `house_price_prediction`  
 To run app:
 ```bash
-cd iris_flower_classification
+cd house_price_prediction
 pip install -r requirements.txt
 streamlit run app.py
+```
+
